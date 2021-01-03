@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
+/*Using Kahn's algorithm*
+ * 
+ */
+
 class ClassSchedule207 {
 	    public boolean canFinish(int numCourses, int[][] prerequisites) {
 	        
