@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -34,7 +35,6 @@ public class ClassSchedule207_Standard {
 	        //Graph ready
 	        
 	        int[] visited=new int[numCourses];
-	        List<Integer> order= new ArrayList<Integer>();
 	        
 	        
 	        for(int i=0; i<numCourses;++i)
@@ -91,6 +91,8 @@ public class ClassSchedule207_Standard {
 		int [][] prerequisites= new int[][] {{1,0},{2,1}};
 		System.out.println(prerequisites.length);
 		System.out.println(e.canFinish(numCourses, prerequisites));
+		
+		
 		
 		
 		

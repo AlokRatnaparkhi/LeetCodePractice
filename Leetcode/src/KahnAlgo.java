@@ -47,6 +47,7 @@ public class KahnAlgo {
 			if(indegrees[i]==0)
 			{
 				q.add(i);
+			
 			}
 			
 		}
