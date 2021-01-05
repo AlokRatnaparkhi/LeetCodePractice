@@ -3,6 +3,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+//DFS version for course schedule 2
+
 class CourseScheduleII_DFS {
 	  public int[] findOrder(int numCourses, int[][] prerequisites) {
 	        
